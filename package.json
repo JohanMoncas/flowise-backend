@@ -21,6 +21,7 @@
     },
     "scripts": {
         "build": "tsc",
+        "start:railway": "node bin/run start",
         "start": "run-script-os",
         "clean": "rimraf dist",
         "nuke": "rimraf dist node_modules .turbo",
